@@ -1,0 +1,8 @@
+services:
+  app-022:
+    build: .
+    image: app-022-understand-18:latest
+    container_name: app-022-understand-18
+    ports:
+      - "8272:80"
+    restart: unless-stopped
